@@ -1,0 +1,10 @@
+name: coast_wrk_shp
+channels:
+  - conda-forge
+  - defaults
+  - bodc
+dependencies:
+    - python=3.10
+    - coast
+    - ipykernel
+    - cartopy
